@@ -1,0 +1,256 @@
+body{
+	  margin: 0;
+	 
+	  overflow-x: hidden;
+}
+.g{
+	 height: 730px;
+	width: 350px;
+	background-color: rgba(0, 0, 0, 0.7);
+  	background-image: url("https://i.ibb.co/F3Z8b1X/Add-Text-01-03-02-42-55.jpg");
+  background-size: cover;
+	z-index: -1;
+	
+	
+}
+.o{
+	position: fixed;
+}
+.container{
+	
+	display: flex;
+	height: 600px;
+	width: 350px;
+	position: fixed;
+	flex-direction: column;
+ 
+}
+.i{
+    height: 120px;
+	  width: 290px;
+    position: relative;
+    display: flex;
+    }
+.logo{
+	height: 71PXpx;
+	width: 290px;
+	background-image: url("https://i.ibb.co/R79wJrG/Add-Text-01-03-10-57-48.png");
+	background-size: cover;
+	position: relative;
+	right: 35PX;
+	bottom: 15PX;
+}
+
+.box1{
+	height: 60px;
+	width: 290px;
+   
+    position: relative;
+ 
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+
+}
+.box2{
+	height: 60px;
+	width: 290px;
+   
+    position: relative;
+      border-bottom: 1px solid white;
+   
+}
+.box3{
+	height: 60px;
+	width: 290px;
+  
+    position: relative;
+      border-bottom: 1px solid white;
+   
+}
+.box4{
+	height: 60px;
+	width: 290px;
+   
+    position: relative;
+      border-bottom: 1px solid white;
+  
+}
+.box5{
+	height: 60px;
+	width: 290px;
+   
+    position: relative;
+      border-bottom: 1px solid white;
+    }
+.ink{
+	padding-top: 22px;
+	padding-left: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-weight: 790;
+	font-family: sans-serif;
+}
+#box:hover{
+	background-color: rgba(178, 34, 34, 0.5);
+}
+#box:active{
+	background-color: rgba(30, 144, 255,0.5);
+}
+.ia{
+	position: relative;
+	margin-top: 0px;
+	left: 292px;
+	height: 1000px;
+
+	background-image: url(https://i.ibb.co/HxhYZMX/Add-Text-01-07-04-59-00.jpg);
+	background-size: cover;
+}
+.hstl{
+     display: flex;
+     width: 1500px;
+     height: 400px;
+     margin: 0;
+     position: relative;
+     top: 50px;
+     left: 30PX;
+ }
+.b1{
+	height: 220px;
+	width: 200px;
+    display: inline-block;
+    margin-right: 25px;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 9px;
+    background-color: rgba(30, 144, 255, 0.4);
+}
+.b2{
+	height: 220px;
+	width: 200px;
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 9px;
+        background-color: rgba(30, 144, 255, 0.4);
+
+   
+}
+.b3{
+	height: 220px;
+	width: 200px;
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 9px;
+        background-color: rgba(30, 144, 255, 0.4);
+
+}
+.b4{
+	height: 220px;
+	width: 200px;
+    position: relative;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 15px;
+    margin-right: 25PX;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 9px;
+        background-color: rgba(30, 144, 255, 0.4);
+
+}
+.b5{
+	height: 220px;
+	width: 200px;
+    position: relative;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 15px;
+    margin-right: 25PX;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 9px;
+        background-color: rgba(30, 144, 255, 0.4);
+
+}
+
+
+.b1:hover{
+	transform: scale(1.1);
+	z-index: 1.1;
+    box-shadow: rgba(0, 0, 255, 0.6) 0px 7px 6px;
+}
+.b2:hover{
+	transform: scale(1.1);
+	z-index: 1.1;
+    box-shadow: rgba(0, 0, 255, 0.6) 0px 7px 6px;
+
+}
+.b3:hover{
+	transform: scale(1.1);
+	z-index: 1.1;
+    box-shadow: rgba(0, 0, 255, 0.6) 0px 7px 6px;
+
+}
+.b4:hover{
+	transform: scale(1.1);
+	z-index: 1.1;
+    box-shadow: rgba(0, 0, 255, 0.6) 0px 7px 6px;
+
+}
+.b5:hover{
+	transform: scale(1.1);
+	z-index: 1.1;
+    box-shadow: rgba(0, 0, 255, 0.6) 0px 7px 6px;
+
+}
+.im{
+	height: 150px;
+	width: 150px;
+}
+.ic1{
+	padding-top: 25px;
+	padding-left: 27px;
+	transition: 1S;
+	animation: img;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-delay: 2s;
+}
+.ic2{
+	padding-top: 25px;
+	padding-left: 27px;
+}
+.ic3{
+	padding-top: 25px;
+	padding-left: 27px;
+}
+.ic4{
+	padding-top: 25px;
+	padding-left: 27px;
+}
+.ic5{
+	padding-top: 25px;
+	padding-left:27px;
+}
+.ic6{
+	padding-top: 25px;
+	padding-left: 27px;
+}
+.co21{
+	padding-top: 8px;
+	text-align: center;
+	font-weight: 850;
+	font-family: sans-serif;
+	color:white ;
+}
+.h{
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 30pt;
+	color: rgb(255, 60, 34);
+font-weight: 700;
+font-family: sans-serif;
+}

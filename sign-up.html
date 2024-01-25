@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="sign-up.css">
+
+</head>
+
+<body>
+    <label for="language"></label>
+    <select name="language" id="lang">
+        <option value="English">English
+        <option value="Hindi">Hindi</option>
+        <option value="Urdu">Urdu</option>
+        <option value="Marathi">Marathi</option>
+        <option value="Bengali">Bengali</option>
+        <option value="Tamil">Tamil</option>
+        <option value="Telgu">Telgu</option>
+    </select>
+  <div class="page-background"></div>
+  <div class="mid-page-content">
+    <div class="welcome">Welcome to EduHelp</div>
+    <div id="form" class="sign-up">
+      <form>
+        <div class="inputs">
+          <input class="name" type="text" placeholder="Enter Your Full Name">
+          <input class="sign-up-email" type="email" placeholder="Enter Your Email">
+          <input class="sign-up-password" type="password" placeholder="Enter Your Password">
+        </div>
+        <div class="submit">
+          <button type="submit">Sign Up</button>
+        </div>
+        <div class="text">Already have an account? <a class="loginBTN" href="login.html">Log In</a></div>
+        <div class="login-now">
+          <button type="button">Log-In Now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { getDatabase, set, ref } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+  import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDSK0H4Dj2twQ5F-T6zb1WU9bJQ8iWLUnw",
+    authDomain: "auth-efee9.firebaseapp.com",
+    projectId: "auth-efee9",
+    storageBucket: "auth-efee9.appspot.com",
+    messagingSenderId: "146002539859",
+    appId: "1:146002539859:web:25f89a4bef2a1171195da6",
+    measurementId: "G-7H34B9GHVF"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase();
+  const auth = getAuth();
+
+  let name = document.querySelector(".name")
+  let signUpEmail = document.querySelector(".sign-up-email")
+  let signUpPassword = document.querySelector(".sign-up-password")
+  let signUp = document.querySelector(".sign-up")
+
+  let RegisterUser = evt => {
+    evt.preventDefault();
+    createUserWithEmailAndPassword(auth, signUpEmail.value, signUpPassword.value)
+      .then((credentials) => {
+        console.log(credentials);
+        alert("New user created successfully")
+        set(ref(db, 'UsersAuthList/' + credentials.user.uid), {
+          name: name.value,
+        })
+        window.location.href = "login.html"
+      })
+      .catch((error) => {
+        console.log(error.code);
+        console.log(error.message);
+      })
+  }
+  signUp.addEventListener('submit', RegisterUser)
+</script>
+
+</html>

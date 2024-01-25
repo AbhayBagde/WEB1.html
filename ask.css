@@ -1,0 +1,247 @@
+body{
+	  margin: 0;
+	 
+	  overflow-x: hidden;
+}
+.
+.o{
+	position: fixed;
+}
+.container{
+	
+	display: flex;
+	height: 740px;
+	width: 290px;
+	position: fixed;
+	flex-direction: column;
+	background-color: rgba(54, 57, 58, 1);
+	z-index: 1;
+
+ 
+}
+.hh1{
+	color: white;
+	font-size: 25pt;
+	font-weight: 780;
+	padding-top: 30px;
+	padding-left: 20px;
+	font-family: sans-serif;
+
+}
+
+.box1{
+	height: 67px;
+	width: 250px;
+   
+    position: relative;
+ 
+    left: 17px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.box2{
+	height: 67px;
+	width: 250px;
+   position: relative;
+   left: 17px;
+   border-radius: 10px;
+}
+.box3{
+	height: 67px;
+	width: 250px;
+  
+    position: relative;
+    left: 17px;
+      border-radius: 10px;
+   
+}
+.box4{
+	height: 67px;
+	width: 250px;
+   
+    position: relative;
+    left: 17px;
+   
+      border-radius: 10px;
+  
+}
+.box5{
+	height: 67px;
+	width: 250px;
+   
+    position: relative;
+    left: 17px;
+      border-radius: 10px;
+    }
+.ink1{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	position: relative;
+	bottom: 8px;
+	color: white ;
+	font-family: sans-serif;
+	font-weight: 780;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-weight: 790;
+	font-family: sans-serif;
+}
+#box{
+	margin-bottom: 13px;
+}
+#box:hover{
+	background-color: rgba(255, 255, 255, 0.15);
+}
+.ia{
+	position: relative;
+	margin-top: 0px;
+	left: 290.7px;
+	height: 2000px;
+
+	background-image: url(https://i.ibb.co/qNkPfpH/Add-Text-01-16-10-47-26.jpg);
+	background-size: cover;
+}
+.input1{
+	background-color: rgba(0, 0, 0, 1.0);
+	color: white;
+	border-bottom: green solid;
+	width: 250px;
+	height: 25px;
+	outline: none;
+	position: relative;
+	left: 17px;
+}
+.hh2{
+	height: 67px;
+	width: 2000px;
+	background-color:  rgba(54, 57, 58, 1.0);
+
+	background-color: 
+	position: relative;
+	padding-left: 10px;
+	position: fixed;
+}
+.hh3{
+	height: 45px;
+	width: 1000px;
+	background-color: rgba(54, 57, 58, 1.0); 
+	position: relative;
+	padding-left: 280px;
+	position:relative ;
+	top: 684px;
+	position: fixed;
+	
+}
+img{
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: 8px;
+	left: 10px;
+}
+.ink3{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	position: relative;
+	bottom: 8px;
+	
+}
+.ink2{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	position: relative;
+	bottom: 8px;
+	
+}
+.ink4{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	position: relative;
+	bottom: 8px;
+	
+}
+.ink5{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	position: relative;
+	bottom: 8px;
+	
+}
+.inki1{
+	padding-bottom: 30px;
+	left: 20px;
+	position: relative;
+	bottom: 8px;
+
+	color: white ;
+	font-family: sans-serif;
+	font-weight: 780;
+	
+}
+.img1{
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: 8px;
+	right: 35px;
+
+}
+.img1{
+	
+	position: relative;
+	top: 8px;
+	right: 35px;
+	padding-left: -500px;
+
+}
+.input2{
+	width: 900px;
+	height: 20px;
+	position: relative;
+	top: -8px;
+	left: -250px;
+	color: white;
+	background-color: rgba(54, 57, 58, 1.0);
+	outline: none;
+	border:none;
+	font-size: 15pt;
+
+
+}
+.imgi6{
+	position: relative;
+	right: 225px;
+	bottom: 5px;
+
+}
+.i2h{
+	height: 38px;
+	width: 38px;
+}
+.bu{
+	position: relative;
+	left: 800px;
+	bottom: 34px;
+}
+button{
+	width: 100px;
+	height: 30px;
+}
+.ink6{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	position: relative;
+	bottom: 8px;
+	
+}
+.box6{
+	height: 67px;
+	width: 250px;
+   
+    position: relative;
+    left: 17px;
+      border-radius: 10px;
+    }
